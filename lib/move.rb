@@ -7,8 +7,9 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  user_input = ("1" to "9")
-  'user_input'.to_i - 1
+  user_input = ("1...9")
+  converted_input = 'user_input'.to_i
+  return converted_input.to_a
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
