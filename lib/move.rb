@@ -9,10 +9,4 @@ end
 def input_to_index(user_input)
   user_input = ("1...9")
   converted_input = 'user_input'.to_i
-  return
-end
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
-def move(board, index, character = "X")
-  board[index] = character
 end
