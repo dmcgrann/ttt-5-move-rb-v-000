@@ -9,7 +9,7 @@ end
 def input_to_index(user_input)
   user_input = ("1...9")
   converted_input = 'user_input'.to_i
-  return input_to_index(user_input)
+  return converted_input
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
