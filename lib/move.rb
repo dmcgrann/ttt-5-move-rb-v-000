@@ -10,8 +10,8 @@ end
 def input_to_index(user_input)
   user_input = "1...9".to_i
 end
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 def move(board, index, character = "X")
-  board[index] = ${character}
-  return board.new[]
+  board[index] = character
 end
